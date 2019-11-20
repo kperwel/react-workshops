@@ -1,0 +1,21 @@
+.container {
+  font-family: sans-serif;
+  outline: 1px solid grey;
+  min-height: 100px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+}
+
+.avatar {
+  background: #666;
+  margin: 0 10px 0 0;
+  width: 128px;
+  height: 128px;
+}
+
+.name,
+.description {
+  display: block;
+  color: #555;
+}
